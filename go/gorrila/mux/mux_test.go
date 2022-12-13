@@ -5,14 +5,14 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/google/sqlcommenter/go/core"
 	"github.com/gorilla/mux"
+	"github.com/kostyay/sqlcommenter/go/core"
 )
 
 func TestSQLCommenterMiddleware(t *testing.T) {
 	framework := "gorrila/mux"
 	route := "GET--/test/{id}"
-	action := "github.com/google/sqlcommenter/go/gorrila/mux.TestSQLCommenterMiddleware.func1"
+	action := "github.com/kostyay/sqlcommenter/go/gorrila/mux.TestSQLCommenterMiddleware.func1"
 
 	mockHandler := func(w http.ResponseWriter, r *http.Request) {
 		ctx := r.Context()

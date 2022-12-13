@@ -21,7 +21,7 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/google/sqlcommenter/go/core"
+	"github.com/kostyay/sqlcommenter/go/core"
 )
 
 var attemptedToAutosetApplication = false

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/google/sqlcommenter/go/core"
-	httpnet "github.com/google/sqlcommenter/go/net/http"
 	"github.com/gorilla/mux"
+	"github.com/kostyay/sqlcommenter/go/core"
+	httpnet "github.com/kostyay/sqlcommenter/go/net/http"
 )
 
 func SQLCommenterMiddleware(h http.Handler) http.Handler {

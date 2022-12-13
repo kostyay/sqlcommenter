@@ -19,7 +19,7 @@ import (
 	"database/sql"
 	"database/sql/driver"
 
-	"github.com/google/sqlcommenter/go/core"
+	"github.com/kostyay/sqlcommenter/go/core"
 )
 
 var (
