@@ -5,8 +5,8 @@ import (
 	"log"
 
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/google/sqlcommenter/go/core"
-	gosql "github.com/google/sqlcommenter/go/database/sql"
+	"github.com/kostyay/sqlcommenter/go/core"
+	gosql "github.com/kostyay/sqlcommenter/go/database/sql"
 )
 
 func ConnectMySQL(connection string) *sql.DB {

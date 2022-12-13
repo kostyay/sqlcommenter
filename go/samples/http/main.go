@@ -7,7 +7,7 @@ import (
 	"log"
 	"net/http"
 
-	gosqlmux "github.com/google/sqlcommenter/go/gorrila/mux"
+	gosqlmux "github.com/kostyay/sqlcommenter/go/gorrila/mux"
 	"github.com/gorilla/mux"
 	"go.opentelemetry.io/contrib/instrumentation/github.com/gorilla/mux/otelmux"
 	"go.opentelemetry.io/otel"

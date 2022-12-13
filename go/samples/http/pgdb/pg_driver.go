@@ -4,8 +4,8 @@ import (
 	"database/sql"
 	"log"
 
-	"github.com/google/sqlcommenter/go/core"
-	gosql "github.com/google/sqlcommenter/go/database/sql"
+	"github.com/kostyay/sqlcommenter/go/core"
+	gosql "github.com/kostyay/sqlcommenter/go/database/sql"
 	_ "github.com/lib/pq"
 )
 
